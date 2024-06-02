@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    text-align: center;
+    margin-bottom: -0.01%;
+    background-color: #62735a;
+    cursor: pointer;
+}
+@media (max-width: 600px){
+    #logo img {
+        width: 30%;
+        height: auto;
+    }
+}
+.nav-link:hover{
+    color: #c28465;
+}
+ul a{
+    color: #fff;
+}
+.container img{
+    width: 50%;
+    height: auto;
+    border-radius: 1rem;
+}
+.container p{
+    text-align: justify;
+    color: #f5f2e9;
+}
+.container a{
+    text-decoration: none;
+    color: #f5f2e9;
+}
+.container a:hover{
+    color: #000;
+}
+.container h2{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #f5f2e9;
+}
+.container p:first-child, .container h2{
+    text-align: center;
+}
