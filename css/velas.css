@@ -43,6 +43,7 @@ ul a{
 }
 .card{
     border: none;
+    margin-bottom: 8%;
 }
 .card img{
     min-width: 100%;
