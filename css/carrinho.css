@@ -20,3 +20,12 @@
 ul a{
     color: #fff;
 }
+#produtoCarrinho{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
+}
+#produtoCarrinho img{
+    width: 100%;
+    height: 50vh !important;
+}
